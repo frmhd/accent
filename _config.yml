@@ -2,7 +2,7 @@
 
 title: frmhd journal
 url: "https://frmhd.github.io"
-baseurl: "/"
+baseurl: ""
 
 # This will show up at the top of index page
 site_heading: >
