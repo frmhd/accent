@@ -6,7 +6,7 @@
             {% assign prev = 'page/' | append: paginator.previous_page %}
         {% endif %}
         <div class="alignable pull-left">
-            <a class="button" href="{{ url | append: prev }}" title="articles new">&larr; Prev</a>
+            <a class="underline" href="{{ url | append: prev }}" title="articles new"><<<</a>
         </div>
     {% else %}
         <div><a href=""></a></div>
@@ -16,7 +16,7 @@
     </div>
     {% if paginator.next_page %}
         <div class="alignable pull-right" style="text-align: right">
-            <a class="button" href="{{ url | append: 'page/' | append: paginator.next_page }}" title="articles old">Next &rarr;</a>
+            <a class="underline" href="{{ url | append: 'page/' | append: paginator.next_page }}" title="articles old">>>></a>
         </div>
     {% else %}
         <div><a href=""></a></div>

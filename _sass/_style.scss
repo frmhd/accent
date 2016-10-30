@@ -104,15 +104,15 @@ a:hover {
 .button {
     font-weight: lighter;
     font-size: 13px;
-    border-radius: 20px;
+    // border-radius: 20px;
     background: #fff;
-    padding: $base-spacing/4 $base-spacing;
+    // padding: $base-spacing/4 $base-spacing;
     color: $medium-gray-color;
 }
 .button:hover {
-    background: $accent-color;
-    color: #fff;
+    // background: $accent-color;
     -webkit-transition: 0.3s ease;
+    border-bottom: 1px solid $accent-color;
 }
 .rrssb-buttons {
     margin: $base-spacing 0;
@@ -214,7 +214,7 @@ footer {
     height: $big-circle-size;
     //border: 2px solid #000;
     border-radius: $big-circle-size;
-    background-color: #000;
+    background-color: $accent-color;
     padding: 0;
 }
 .back-inner {
@@ -226,7 +226,7 @@ footer {
     background: #fff;
 }
 .back-inner:hover {
-    background: #000;
+    background: $accent-color;
 }
 
 /* Paginate

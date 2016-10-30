@@ -1,19 +1,19 @@
 # User Settings | Edit there as per required
 
-title: frmhd journal
+title: FrmHd's journal
 url: "https://frmhd.github.io"
 baseurl: ""
 
 # This will show up at the top of index page
 site_heading: >
-    foo <span class="faded">'s blog</span>
+    FrmHd<span class="faded">'s journal</span>
 
 email: freemiumhead@gmail.com
-author: frmhd
+author: FrmHd
 # This description will show up in google search results
 # (for index page) etc.
 description: >
-    frmhd dev journal
+    FrmHd's journal
 
 # This will what will show against &copy; in the footer
 copyright: accent
@@ -33,7 +33,7 @@ comments: false
 # Note that about_footer should be true if you want
 # to see author information at the bottom of each post
 about_stub: >
-    frmhd dev journal
+    FrmHd's journal
 
 about_footer: true
 
@@ -47,7 +47,7 @@ favicon_location: "images/favicon.ico"
 profile_picture: images/temp.png
 paginate: 5
 paginate_path: "/page/:num"
-tracking_id:  # GA Tracking ID
+tracking_id: UA-72773459-2 # GA Tracking ID
 
 # Social Stuff | open graph and twitter cards
 og_image: "images/accent.png" # This will show in facebook thumbnails
